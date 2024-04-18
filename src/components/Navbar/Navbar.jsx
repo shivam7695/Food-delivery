@@ -9,7 +9,7 @@ const Navbar = ({setShowLogin}) => {
 
   return (
     <div className='navbar' id='navbar'>
-      <Link to="/"><img src="foode-logo.jpg" alt="" className='logo'/></Link>
+      <Link to="/"><img src="logo.png" alt="" className='logo'/></Link>
       <ul className="navbar-menu">
         <Link to='/' onClick={()=> setMenu("Home")} className={menu==="Home"?"active":""}>Home</Link>
         <a href='#explore-menu' onClick={()=> setMenu("Menu")} className={menu==="Menu"?"active":""}>Menu</a>
@@ -17,9 +17,9 @@ const Navbar = ({setShowLogin}) => {
         <a href='#footer' onClick={()=> setMenu("Contact-us")} className={menu==="Contact-us"?"active":""}>Contact us..</a>
       </ul>
       <div className="navbar-right">
-        <img src="search_icon.png" alt="" />
+        <img className='search-icon' src="search-icon.png" alt="" />
         <div className="navbar-search-icon">
-            <Link to="/cart"> <img src="basket_icon.png" alt="" /> </Link>
+            <Link to="/cart"> <img src="basket.png" alt="" /> </Link>
                 <div className={getTotalCartAmount()===0?"": "dot"}>
 
                 </div>

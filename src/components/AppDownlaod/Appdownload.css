@@ -17,6 +17,9 @@
     margin-top: 40px;
     cursor: pointer;
 }
+.app-download-platform img{
+    width: 260px;
+}
 .app-download-platform img:hover{
     transition: 0.5s;
 }

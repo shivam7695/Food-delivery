@@ -1,8 +1,9 @@
 .header{
-    height:34vw ;
+    width:70vw ;
+    height:80vh ;
     margin: 30px auto;
-    background: url("header_img.png")no-repeat ;
-    background-size: contain;
+    background: url("cristiano-pinto-2lWGQ02DGL8-unsplash.jpg")no-repeat ;
+    
     position: relative;
 }
 .header-contents{

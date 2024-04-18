@@ -49,19 +49,20 @@
     padding: 10px;
     cursor: pointer;
 }
-.footer-social-icon img{
+.footer-social-icon i{
     margin-left: 15px;
     cursor: pointer;
+    width: 40px;
+    height: 30px;
+   
     border-radius: 50%;
     border: 0;
+    
+    
 
 }
-.footer-social-icon img:hover{
-    width: 50px;
-    box-shadow: 0 0 20px rgb(169, 255, 30);
-    background:greenyellow;
-    
-}
+
+
 
 .footer>hr{
     width: 100%;

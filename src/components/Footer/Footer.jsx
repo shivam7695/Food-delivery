@@ -6,12 +6,12 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-            <img className='logos' src="foodee-logo.webp" alt="" />
+            <img className='logos' src="logo.png" alt="" />
             <p> "From farm to table, we're dedicated to providing fresh, quality ingredients in every meal."</p>
             <div className="footer-social-icon">
-                <img src="facebook_icon.png" alt="" />
-                <img src="twitter_icon.png" />
-                <img src="linkedin_icon.png" />
+            <i className="icon fa-brands fa-square-facebook"></i>
+            <i className="icon fa-brands fa-square-x-twitter"></i>
+            <i className="icon fa-brands fa-linkedin"></i>
             </div>
             </div>
             <div className="footer-content-center">
