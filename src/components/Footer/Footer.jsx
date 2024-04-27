@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-            <img className='logos' src="logo.png" alt="" />
+            <img className='logos' src="https://imgs.search.brave.com/WJJagTEZD8zwFMVB9xVhEzNCjBGCIrj_p2AvJZG9jlc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzVj/NzU5Y2Y1ZDg2Y2M5/NDVmZDY4MGY0ZC9l/ZDVkYmFlNS1kNjJh/LTRlMmQtYWEwZi0x/ZmZlMGJkYzM0OTYv/Rm9vZGVfUHJpbWFy/eUxvZ29fRGFyay5q/cGc" alt="" />
             <p> "From farm to table, we're dedicated to providing fresh, quality ingredients in every meal."</p>
             <div className="footer-social-icon">
             <i className="icon fa-brands fa-square-facebook"></i>
