@@ -17,7 +17,7 @@ const Navbar = ({setShowLogin}) => {
         <a href='#footer' onClick={()=> setMenu("Contact-us")} className={menu==="Contact-us"?"active":""}>Contact us..</a>
       </ul>
       <div className="navbar-right">
-        <img className='search-icon' src="search-icon.png" alt="" />
+       <i class="fa-solid fa-magnifying-glass search-icon"></i>
         <div className="navbar-search-icon">
             <Link to="/cart"> <img src="basket.png" alt="" /> </Link>
                 <div className={getTotalCartAmount()===0?"": "dot"}>
