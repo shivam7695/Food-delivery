@@ -2,7 +2,7 @@
     width:70vw ;
     height:80vh ;
     margin: 30px auto;
-  color:tomato
+ background-color: tomato;
     
     position: relative;
 }
